@@ -23,3 +23,6 @@ twbs:bootstrap
 mrt:flash-messages
 accounts-ui
 accounts-password
+aldeed:collection2
+cfs:standard-packages
+cfs:gridfs

@@ -17,6 +17,9 @@
             <li><a href="{{pathFor 'about'}}">About</a></li>
             <li><a href="{{pathFor 'blog'}}">Blog</a></li>
             <li><a href="{{pathFor 'contact'}}">Contact</a></li>
+            {{#if currentUser}}
+                <li><a href="#" class="logout-user">Logout</a></li>
+            {{/if}}
           </ul>
         </div><!--/.nav-collapse -->
       </div>
