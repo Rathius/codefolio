@@ -40,3 +40,16 @@ Template.layout.events({
 Template.registerHelper('formatDate', function(date){
     return moment(date).format('MMMM Do YYYY, h:mm:ss a');
 });
+
+Template.registerHelper('getSiteTitle', function(date){
+    return "Codefolio";
+});
+
+Template.registerHelper('getAdminName', function(date){
+    return "John Doe";
+});
+
+Template.registerHelper('getAdminImage', function(date){
+    return '/assets/img/user.png';
+});
+

@@ -1,8 +1,11 @@
 
-
-Template.layout.rendered=function() {
+Template.add_project.rendered=function() {
     $('#projectDate').datepicker();
-}
+};
+
+Template.edit_project.rendered=function() {
+    $('#projectDate').datepicker();
+};
 
 Template.add_project.events({
     'submit .add_project_form': function(event){

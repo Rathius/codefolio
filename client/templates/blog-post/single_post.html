@@ -1,8 +1,7 @@
-<template name="blog">
+<template name="single_post">
 
-    <!-- +++++ Posts Lists +++++ -->
-    {{#each posts}}
-	<div id="grey">
+    <!-- +++++ Post +++++ -->
+	<div id="white">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -10,15 +9,12 @@
 					<p><bd>{{updatedAt}}</bd></p>
 					<h4>{{title}}</h4>
 					<p>{{body}}</p>
-					<p><a href="blog/post/{{_id}}">Continue Reading...</a></p>
+					<a href="/blog" class="btn btn-default" name="blog-return">Back to the Blog</a>
 				</div>
+    			
 
 			</div><!-- /row -->
 	    </div> <!-- /container -->
-	</div><!-- /grey -->
-	{{else}}
-	    <h3>There are no posts</h3>
-    {{/each}}
-	
+	</div><!-- /white -->
 
 </template>
